@@ -7,6 +7,10 @@
   </head>
   <body>
 
+    <div class="container">
+      <?php require_once("lib/partials/carousel.php");?>
+    </div>
+
 
     <?php require_once("lib/partials/scripts.php");?>
 
