@@ -1,4 +1,7 @@
+<!-- Carousel
+================================================== -->
 <div id="cheiisCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
   <ol class="carousel-indicators">
     <li data-target="#cheiisCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#cheiisCarousel" data-slide-to="1"></li>
@@ -6,21 +9,42 @@
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-      <img src="lib/images/placeholder.png" alt="First slide">
+      <img class="first-slide" src="lib/images/placeholder.png" alt="First slide">
+      <div class="container">
+        <div class="carousel-caption text-xs-left">
+          <h1>Example headline.</h1>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+        </div>
+      </div>
     </div>
     <div class="carousel-item">
-      <img src="lib/images/placeholder.png" alt="Second slide">
+      <img class="second-slide" src="lib/images/placeholder.png" alt="Second slide">
+      <div class="container">
+        <div class="carousel-caption">
+          <h1>Another example headline.</h1>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
+        </div>
+      </div>
     </div>
     <div class="carousel-item">
-      <img src="lib/images/placeholder.png" alt="Third slide">
+      <img class="third-slide" src="lib/images/placeholder.png" alt="Third slide">
+      <div class="container">
+        <div class="carousel-caption text-xs-right">
+          <h1>One more for good measure.</h1>
+          <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+          <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
+        </div>
+      </div>
     </div>
   </div>
   <a class="left carousel-control" href="#cheiisCarousel" role="button" data-slide="prev">
-    <span class="icon-prev" aria-hidden="true"></span>
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
   <a class="right carousel-control" href="#cheiisCarousel" role="button" data-slide="next">
-    <span class="icon-next" aria-hidden="true"></span>
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-</div>
+</div><!-- /.carousel -->

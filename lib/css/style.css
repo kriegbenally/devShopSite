@@ -1,8 +1,51 @@
-.carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img{
-  line-height: 1;
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+  background-color: #777;
+}
+.carousel-item  img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  display: block;
-  margin: 0 auto;
-  height: auto;
-  overflow: hidden;
-  }
+  height: 32rem;
+}
+
+.carousel-indicators {
+  top: 1.5rem;
+  right: 1.5rem;
+  bottom: auto;
+  left: auto;
+  width: 1rem;
+  margin-left: 0;
+}
+
+.carousel-indicators > li {
+  margin-bottom: .25rem;
+}
+
+/*NAVBAR*/
+.bg-clear{
+  background-color: transparent;
+  -webkit-transition: background-color 1s ease 0s;
+  transition: background-color 1s ease 0s;
+}
+
+.bg-faded {
+  background-color: #f7f7f9!important;
+  -webkit-transition: background-color 1s ease 0s;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+}
